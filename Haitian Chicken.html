@@ -7,17 +7,27 @@
 body {
     margin: 0;
     background-color: black;
-    background-image: url("https://i.servimg.com/u/f11/19/59/19/44/giant_10.png");
+    background-image: url("wood panel.png");
     background-size: auto;
-    background-color: rgba(4,2,2,1.00)
+    background-color: rgba(4,2,2,1.00);
+	
 }
+	img{display:block;box-shadow: 10px 10px 10px;
+	}
+	
+	logo{display:inline-block;
+		vertical-align:middle;
+		width:125px;
+	}
 banner {
     display: block;
-    margin: auto
+    margin: auto;
 }
 h1 {
-    text-align: center;
-    color: aliceblue;
+    text-align: top;
+	display: block;
+    color: black;
+	vertical-align: middle;font-family:"fantasy", cursive;
 }
 section {
     width: 45%;
@@ -25,29 +35,44 @@ section {
     box-sizing: border-box;
     margin-right: 25px;
     vertical-align: top;
-    color: aliceblue;
-    font-family: 'consolas';
-    background-color: firebrick;
-    background-color: rgba(148,88,89,.50);
+    color: black;
 	padding:10px;
+	box-shadow: 10px 10px 10px;
+}
+
+	.ingredients{
+		background-image:url("paper.jpg");border-left: medium solid black;border-right:medium solid black;border-top: medium solid black;border-bottom: medium solid black;font-family:"fantasy", cursive
+	}
+	.instructions{
+		background-image:url("paper.jpg");border-left: medium solid black;border-right:medium solid black;border-top: medium solid black;border-bottom: medium solid black;font-family:"fantasy", cursive
+	}
 	
-}
 p {
-    color: aliceblue;
-    font-family: 'Consolas';
-}
+	color: black;font-family:"fantasy", cursive;
+	}
+wrapper {display:block; 
+		background-color: rgba(255,231,231,0.74);
+		width:1000px;
+		padding:20px;
+	margin: auto; box-sizing: border-box
+	}
+	
+	footer{color: white;font-family:"fantasy", cursive;font-size: 12px;
+		text-align: center;border-radius: 9px;
+		padding:2px;
+	}
 </style>
 </head>
 
 <body>
 <wrapper>
-  <header> <img src="../Web design/cooking-pot-logo-design-the-soup-pot-is-boiling-vector.jpg" width="450" height="" alt=""/>
-    <h1>Savory Haitian Chicken</h1>
+  <header> <img src="../../Downloads/logo new copy.jpg" width="200" alt="" class="img"/>
+<h1>Savory Creole Creations</h1>
   </header>
-  <banner> <img src="../Web design/Poulet-En-Sauce-Haitian-Chicken-Stew-Savory-Thoughts-1.jpg" width="600"  alt=""/></banner>
+  <banner> <img src="../Web design/Poulet-En-Sauce-Haitian-Chicken-Stew-Savory-Thoughts-1.jpg" width="600"  alt="" class="banner"/></banner>
   <h1>Haitian Chicken</h1>
   <p>Easily one of the most well known and beloved of the cuisine of Haiti, Poul Nan Sos, or more commonly known as Haitian Chicken, is a truly phenomal meal that takes time, but is well worth the wait. Made with fresh herbs, peppers, bouillon cubes, and a seasoning base known as epis, the meal is beautifully put together meal. </p>
-  <section>
+  <section class="ingredients">
     <h2>Ingredients</h2>
     <ul>
       <li>Chicken drumsticks</li>
@@ -64,7 +89,7 @@ p {
       <li>Lemon Juice</li>
     </ul>
   </section>
-  <section>
+  <section class="cooking instructions">
     <h2>Cooking Instructions</h2>
     <ol>
       <li>Clean the chicken thoroughly. See the directions in the post.
@@ -85,9 +110,9 @@ p {
     </ol>
   </section>
 </wrapper>
-<footer>
-  <p>© 2025, Corey Hernandez.</p>
-  <p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+<footer class="footer">
+  <p2>© 2025, Corey Hernandez.</p2>
+  <p2>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p2>
 </footer>
 </body>
 </html>
